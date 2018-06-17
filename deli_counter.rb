@@ -24,7 +24,9 @@ def now_serving(katz_deli)
   if katz_deli.length == 0
    puts "There is nobody waiting to be served!"
  else
-   return "Currently Serving #{katz_deli.length}"
+   elements = "Currently serving #{name}"
+   katz_deli.each_with_index do |name|
+     puts elements + "#{katz_deli}. #{name}"
+
  end
  end
- 
