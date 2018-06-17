@@ -6,7 +6,6 @@ def line(katz_deli)
  end
 end
 def take_a_number(other_deli , name)
-  if take_a_number == 1
-    puts "Welcome, #{name}. You are number #{index} in line."
-  end
+  if other_deli == [1-3]
+    puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
 end
