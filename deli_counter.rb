@@ -9,3 +9,4 @@ def take_a_number(other_deli , name)
   if other_deli == [1-3]
     puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
 end
+end
