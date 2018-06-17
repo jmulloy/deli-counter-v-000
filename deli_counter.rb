@@ -5,7 +5,7 @@ def line(katz_deli)
    puts "The line is currently empty."
  end
 end
-def take_a_number(other_deli , name)
+def take_a_number(other_deli, name)
   if other_deli.length == 3
     puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
 end
