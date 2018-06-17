@@ -27,6 +27,6 @@ def now_serving(katz_deli)
    elements = "Currently serving #{name}"
    katz_deli.each_with_index do |name|
      puts elements + "#{katz_deli}. #{name}"
-
+   end
  end
  end
