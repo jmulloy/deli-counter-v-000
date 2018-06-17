@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 def line(katz_deli)
- if "There is nobody in line"
+ if katz_deli == 0
    return "The line is currently empty"
  end
 end
