@@ -1,5 +1,6 @@
 # Write your code here.
 katz_deli = []
-if line = 0
-  "The line is currently empty"
+def line()
+ if "The line is currently empty"
+   return "There is nobody in line."
 end
